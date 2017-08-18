@@ -186,7 +186,6 @@
     <Compile Include="Controllers\MapsController.cs" />
     <Compile Include="Controllers\MultilevelsController.cs" />
     <Compile Include="Controllers\PagesController.cs" />
-    <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Controllers\TablesController.cs" />
     <Compile Include="Controllers\WidgetsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -835,13 +834,11 @@
     <Content Include="Vendor\weather-icons\font\weathericons-regular-webfont.ttf" />
     <Content Include="Vendor\weather-icons\font\weathericons-regular-webfont.woff" />
     <Content Include="Vendor\weather-icons\font\weathericons-regular-webfont.woff2" />
-    <Content Include="Views\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Vendor\blueimp-file-upload\js\cors\" />
     <Folder Include="Vendor\blueimp-file-upload\js\vendor\" />
-    <Folder Include="Views\Register\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config">
