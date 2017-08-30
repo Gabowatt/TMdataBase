@@ -27,12 +27,12 @@
                             <div class="form-group">
                                 <div class="cols-sm-10">
                                     <div class="input-group">
-                                        <span class="input-group-addon"><i class="fa fa-blank fa" aria-hidden="true"></i></span>
+                                        <span class="input-group-addon"><i class="fa fa-circle fa" aria-hidden="true"></i></span>
                                         <input type="text" class="form-control" name="name" id="last" placeholder="Apellidos" />
                                     </div>
                                 </div>
                             </div>
-                            <div class="row" style="height:20px;"></div>
+                            <div class="row" style="height:15px;"></div>
                             <!--Postal Address Form-->
                             <div class="form-group">
                                 <div class="cols-sm-10">
@@ -46,30 +46,61 @@
                             <div class="form-group">
                                 <div class="cols-sm-10">
                                     <div class="input-group">
-                                        <span class="input-group-addon"><i class="fa fa-blank fa" aria-hidden="true"></i></span>
+                                        <span class="input-group-addon"><i class="fa fa-circle fa" aria-hidden="true"></i></span>
                                         <input type="text" class="form-control" name="name" id="postal2" placeholder="Dirección Postal" />
                                     </div>
                                 </div>
                             </div>
                             <!--Country/Town-->
-                            <div class="form-group col-lg-6">
-                                <div class="cols-sm-10">
+                            <div class="form-group">
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-6 col-md-6">
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-blank fa" aria-hidden="true"></i></span>
-                                        <input type="text" class="form-control" name="name" id="postal2" placeholder="Dirección Postal" />
+                                        <input type="text" class="form-control" name="name" id="town" placeholder="Pueblo" />
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-6 col-md-6">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-blank fa" aria-hidden="true"></i></span>
+                                        <input type="text" class="form-control" name="name" id="country" placeholder="País" />
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="form-group col-lg-6">
-                                <div class="cols-sm-10">
+                            </div>
+                            <div class="row" style="height:15px;"></div>
+                            <!--CivilState/Gender-->
+                            <div class="form-group">
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-6 col-md-6">
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-blank fa" aria-hidden="true"></i></span>
-                                        <input type="text" class="form-control" name="name" id="postal2" placeholder="Dirección Postal" />
+                                        <select class="form-control input-sm" id="CivilState">
+                                            <option value="" selected hidden>Estado Civil</option>
+                                            <option>Soltero/a</option>
+                                            <option>Comprometido/a</option>
+                                            <option>Casado/a</option>
+                                            <option>Divorciado/a</option>
+                                            <option>Viudo/a</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-6 col-md-6">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-blank fa" aria-hidden="true"></i></span>
+                                        <select class="form-control input-sm" id="Gender">
+                                            <option value="" selected hidden>Género</option>
+                                            <option>Hombre</option>
+                                            <option>Mujer</option>
+                                         </select>
                                     </div>
                                 </div>
                             </div>
-                            
+                          </div>
+                        <!--Checkboxes-->
+                            <div class="checkbox style-2 pull-left">
+                                <h3><input type="checkbox" value="" id="check1">Primera vez que visita</h3>
+                            </div>
                     </form>
                     </div>
                     <div class="col-md-3">
